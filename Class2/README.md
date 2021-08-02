@@ -8,7 +8,7 @@ Another example- If we consider a dog as an object then its properties would be-
 Object-Oriented programming is famous because it implements the real-world entities like objects, hiding, inheritance, etc in programming. It makes visualization easier because it is close to real-world scenarios.
 
 <h3>1. What is a Class?  
-<h6>A straight forward answer to this question is- A class is a collection of objects.  Unlike the primitive data structures, classes are data structures that the user defines. They make the code more manageable. 
+<h6>A straight forward answer to this question is- A class is a collection of objects.  Unlike the primitive data structures, <h5>classes are data structures that the user defines. <h6>They make the code more manageable. 
 
 Let’s see how to define a class below:
   
@@ -273,6 +273,30 @@ In the above code, we have imported the abc module to create the abstract base c
    1. An Abstract class can contain the both method normal and abstract method.
    2. An Abstract cannot be instantiated; we cannot create objects for the abstract class.
   
+<h1>:bookmark:Mutable and Immutable in Python
+<h3>Mutable
+<h6>Mutable is when something is changeable or has the ability to change. In Python, ‘mutable’ is the ability of objects to change their values. These are often the objects that store a collection of data.
+  
+Objects of built-in type that are mutable are:
+
+  1. Lists
+  2. Sets
+  3. Dictionaries
+  4. User-Defined Classes (It purely depends upon the user to define the characteristics)  
+  
+<h3>Immutable
+<h6>Immutable is the when no change is possible over time. In Python, if the value of an object cannot be changed over time, then it is known as immutable. Once created, the value of these objects is permanent.
+  
+Objects of built-in type that are immutable are:
+
+  1. Numbers (Integer, Rational, Float, Decimal, Complex & Booleans)
+  2. Strings
+  3. Tuples
+  4. Frozen Sets
+  5. User-Defined Classes (It purely depends upon the user to define the characteristics)
+
+Object mutability is one of the characteristics that makes Python a dynamically typed language. Though Mutable and Immutable in Python is a very basic concept, it can at times be a little confusing due to the intransitive nature of immutability.  
+  
   
   
 <h3>Referrences
@@ -280,6 +304,8 @@ In the above code, we have imported the abc module to create the abstract base c
 <h6>https://www.analyticsvidhya.com/blog/2020/09/object-oriented-programming/
 
   https://www.javatpoint.com/abstraction-in-python
+  
+  https://www.mygreatlearning.com/blog/understanding-mutable-and-immutable-in-python/#1a
   
   https://guides.github.com/features/mastering-markdown/
   
