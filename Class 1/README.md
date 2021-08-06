@@ -22,6 +22,7 @@ It can have any number of items and they may be of different types (integer, flo
       my_list = ["mouse", [8, 4, 6], ['a']]
   
 <h3>Access List Elements
+  
 <h6>There are various ways in which we can access the elements of a list.
   
       # List indexing
