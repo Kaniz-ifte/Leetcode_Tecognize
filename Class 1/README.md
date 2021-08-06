@@ -80,8 +80,42 @@ When we run the above program, we will get the following output:
   
 <h3>Complexity of an algorithm
 <h6>Complexity of an algorithm is a measure of the amount of time and/or space required by an algorithm for an input of a given size (n).
-<h4>Types of complexity
-<h6>  
-     1. Time Complexity
-     2. Space Complexity
+
+<h6>Types of complexity:
+
+   1. Time Complexity
+   2. Space Complexity
+    
+<h3> Time Complexity
+<h6>Time complexity of an algorithm signifies the total time required by the program to run till its completion.
+
+The time complexity of algorithms is most commonly expressed using the big O notation. It's an asymptotic notation to represent the time complexity.
+
+
+<h3> Space Complexity
+<h6>Space complexity measures the total amount of memory that an algorithm or operation needs to run according to its input size.
+
+**There are different types of time complexities used. Class one Discuss This 2 Type**
+1. Constant time – O (1)
+2. Linear time – O (n)
+
+<h3> Constant time – O (1)
+<h6>An algorithm is said to have constant time with order O (1) when it is not dependent on the input size n. Irrespective of the input size n, the runtime will always be the same.
+
+<h3> Linear time – O(n)
+<h5>An algorithm is said to have a linear time complexity when the running time increases linearly with the length of the input. When the function involves checking all the values in an input data, such function has Time complexity with this order O(n).
+
+<h3> What is Two Pointer Algorithm?
+<h6>**Two Pointer Technique** uses two-pointer in one loop over the given  data structure. It is commonly used for solving array, string, linked list coding problems.  
+  
+The main purpose of this algorithm is to reduce the complexity of **O(n^3) or O(n^2)** based solution to **Linear time solution**.
+
+![](https://i.ibb.co/r2WnPSR/2-pointer.png)
+  
+  
+ 
+  
+  
+<h3>Resources  
+<h6>https://www.programiz.com/python-programming/list  
   
